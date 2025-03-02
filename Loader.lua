@@ -1,5 +1,3 @@
-getgenv().script_key = getgenv()['script_key']
-
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
