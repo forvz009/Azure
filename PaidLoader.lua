@@ -18,8 +18,4 @@ elseif not script_key then
     LocalPlayer:Kick("No identified Key")
 end
 
-if Executor == "Fluxus" or "Delta" then
-    LocalPlayer:Kick("The Executor you're using is horrible please don't use this.")
-end
-
 loadstring(game:HttpGet(Link))()
